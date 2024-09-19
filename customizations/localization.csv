@@ -1,12 +1,9 @@
 locale,key,value
 
-en_US,load_text,chuncks loaded into Astra DB
-en_US,load_pdf,chuncks loaded into Astra DB
-en_US,load_csv,chuncks loaded into Astra DB
 en_US,load_embedding,Getting the OpenAI embedding...
 en_US,load_vectorstore,Getting the Vector Store from Astra DB...
 en_US,load_message_history,Getting the Message History from Astra DB...
-en_US,assistant_welcome,"Hi, I'm your personal assistant and am ready to help!"
+en_US,assistant_welcome,"Ask me anything!"
 en_US,logout_caption,Welcome! Logged in as user
 en_US,logout_button,Logout
 en_US,disable_chat_history,Disable Chat History
@@ -25,7 +22,7 @@ en_US,load_context_button,Load Documents
 en_US,load_from_urls,Load data from URL(s):
 en_US,load_from_urls_help,Please comma-divide multiple URLs
 en_US,load_from_urls_button,Load Web Data
-en_US,delete_context,"Delete the context, history and start over. This deletes vector embeddings for ALL users!"
+en_US,delete_context,"Delete the context from the vector database and start over. This deletes vector embeddings for ALL users!"
 en_US,delete_context_button,Delete context
 en_US,deleting_context,Removing context and intialising...
 en_US,rails_1,🤩 Try the following prompts ⬇️
@@ -37,79 +34,3 @@ en_US,no_context,No additional context was used as the Vector Store is disabled.
 en_US,sources_used,The following context was retrieved from the Vector Database:
 en_US,no_chat_history,No Chat History was used as this option is disabled.
 en_US,chat_history_used,Chat History messages used to construct this response
-
-nl_NL,load_text,chuncks geladen in Astra DB
-nl_NL,load_pdf,chuncks geladen in Astra DB
-nl_NL,load_csv,chuncks geladen in Astra DB
-nl_NL,load_embedding,Verkrijgen van de OpenAI embedding...
-nl_NL,load_vectorstore,Verkrijgen van de Vector opslag uit Astra DB...
-nl_NL,load_message_history,Verkrijgen van Message History...
-nl_NL,assistant_welcome,"Hallo, ik ben je persoonlijke assistent en sta voor je klaar!"
-nl_NL,logout_caption,Welkom! Ingelogd als gebruiker
-nl_NL,logout_button,Uitloggen
-nl_NL,disable_chat_history,Chat History uitschakelen
-nl_NL,k_chat_history,K voor Chat History
-nl_NL,delete_chat_history_button,Chat History verwijderen
-nl_NL,deleting_chat_history,Bezig met verwijderen vam Chat History
-nl_NL,disable_vector_store,Vector Store uitschakelen
-nl_NL,top_k_vector_store,Top-K voor de Vector Store
-nl_NL,rag_strategy,RAG strategie:
-nl_NL,rag_strategy_help,"Basiszoekopdrachten vinden het meest relevante document met potentieel dubbele informatie. MMR zorgt voor een balans tussen relevantie en diversiteit in de opgehaalde items. Fusion genereert een reeks aanvullende relevante zoekopdrachten om relevante documenten op te halen."
-nl_NL,system_prompt,Systeem Prompt:
-nl_NL,custom_prompt,Aangepaste Prompt:
-nl_NL,custom_prompt_help,"Je kunt de volgende placeholders gebruiken: {question}, {context}, {chat_history}"
-nl_NL,load_context,Upload een document voor additionele context
-nl_NL,load_context_button,Opslaan in de Vector Database
-nl_NL,load_from_urls,Upload data vanuit URL(s):
-nl_NL,load_from_urls_help,Splits meerdere URL's met een komma
-nl_NL,load_from_urls_button,Webdata Laden
-nl_NL,delete_context,"Verwijder de context, geschiedenis en begin opnieuw. Dit verwijdert alle vector-embeddings!"
-nl_NL,delete_context_button,Verwijder context
-nl_NL,deleting_context,Context verwijderen en herinitialiseren...
-nl_NL,rails_1,🤩 Probeer de volgende prompts ⬇️
-nl_NL,rails_2,(kopieer en plak in de chat)
-nl_NL,assistant_question,Waar kan ik mee helpen?
-nl_NL,take_picture,Maak een foto
-nl_NL,using_fusion_queries,Gebruikmakend van de volgende zoekopdrachten gebaseerd op je prompt volgens de Fusion Strategie:
-nl_NL,no_context,Er werd geen extra context gebruikt aangezien de Vector Store is uitgeschakeld.
-nl_NL,sources_used,De volgende context is opgehaald uit de Vector Database:
-nl_NL,no_chat_history,Er werd geen Chatgeschiedenis gebruikt aangezien deze optie is uitgeschakeld.
-nl_NL,chat_history_used,Chatgeschiedenisberichten gebruikt om deze respons samen te stellen
-
-ro_RO,load_text,fragmente încărcate în Astra DB
-ro_RO,load_pdf,fragmente încărcate în Astra DB
-ro_RO,load_csv,fragmente încărcate în Astra DB
-ro_RO,load_embedding,Obținerea embedding-ului OpenAI...
-ro_RO,load_vectorstore,Obținerea stocării Vector din Astra DB...
-ro_RO,load_message_history,Obținerea istoricului de mesaje...
-ro_RO,assistant_welcome,"Bună, sunt asistentul tău personal și sunt pregătit să ajut!"
-ro_RO,logout_caption,Bine ai venit! Conectat ca utilizator
-ro_RO,logout_button,Deconectare
-ro_RO,disable_chat_history,Dezactivarea istoricului de chat
-ro_RO,k_chat_history,K pentru istoricul de chat
-ro_RO,delete_chat_history_button,Ștergerea istoricului de chat
-ro_RO,deleting_chat_history,În curs de ștergere a istoricului de chat
-ro_RO,disable_vector_store,Dezactivarea stocării Vector
-ro_RO,top_k_vector_store,Top-K pentru stocarea Vector
-ro_RO,rag_strategy,Strategia RAG:
-ro_RO,rag_strategy_help,"Căutările de bază găsesc documentul cel mai relevant cu informații potențial dublate. MMR asigură un echilibru între relevanță și diversitate în elementele recuperate. Fuziunea generează un set de interogări suplimentare relevante pentru a recupera documente relevante."
-ro_RO,system_prompt,Promptul sistemului:
-ro_RO,custom_prompt,Prompt personalizat:
-ro_RO,custom_prompt_help,"Poți folosi următoarele locuri rezervate: {question}, {context}, {chat_history chatului}"
-ro_RO,load_context,Încărcarea unui document pentru context suplimentar
-ro_RO,load_context_button,Salvarea în baza de date Vector
-ro_RO,load_from_urls,Încărcarea datelor din URL(uri):
-ro_RO,load_from_urls_help,Separați mai multe URL-uri cu o virgulă
-ro_RO,load_from_urls_button,Încărcarea datelor web
-ro_RO,delete_context,"Ștergeți contextul, istoria și începeți de la început. Acest lucru șterge toate încorporările vectoriale!"
-ro_RO,delete_context_button,Ștergeți contextul
-ro_RO,deleting_context,Ștergerea contextului și reinițializarea...
-ro_RO,rails_1,🤩 Încercați următoarele prompturi ⬇️
-ro_RO,rails_2,(copiați și lipiți în chat)
-ro_RO,assistant_question,Cu ce vă pot ajuta?
-ro_RO,take_picture,Fă o fotografie
-ro_RO,using_fusion_queries,Utilizând următoarele interogări bazate pe promptul dvs. conform Strategiei de Fuziune:
-ro_RO,no_context,Nu s-a folosit context suplimentar deoarece stocarea Vector este dezactivată.
-ro_RO,sources_used,Următorul context a fost preluat din baza de date Vector:
-ro_RO,no_chat_history,Nu s-a folosit istoricul de chat deoarece această opțiune este dezactivată.
-ro_RO,chat_history_used,Mesajele din istoricul de chat folosite pentru a construi acest răspuns.
